@@ -32,6 +32,18 @@
                 padding: 50px 20px;
                 gap: 40px;
             }
+            .status {
+                font-size: 15px;
+                font-weight: 500;
+                border: 1px solid #555;
+                padding: 5px 10px;
+                border-radius: 100px;
+                background-color: #222;
+                transition: border-color 0.2s ease-in-out;
+            }
+            .status:hover {
+                border-color: #aaa;
+            }
             .logo {
                 width: 150px;
                 filter: brightness(0) invert(1);
@@ -51,6 +63,8 @@
                 border-radius: 10px;
                 text-decoration: none;
                 transition: scale 0.2s ease-in-out;
+                font-weight: 500;
+                font-size: 18px;
             }
             .action:hover {
                 scale: 1.05;
@@ -59,10 +73,11 @@
     </head>
     <body>
         <div class="container">
+            <p class="status">Coming Soon</p>
             <img src="/logos/line.png" alt="asteo logo" class="logo">
             <p class="title">Your autonomous AI recruiting partner, built specifically for Finance.</p>
             <p class="subtitle">Asteo sources, screens and schedules interviews with candidates. It's like having an in-house recruiter working 24/7, but without the cost.</p>
-            <a href="mailto:finlay@asteo.ai" class="action">Request a Demo</a>
+            <a href="mailto:finlay@asteo.ai" class="action">Learn More</a>
         </div>
     </body>
 </html>
